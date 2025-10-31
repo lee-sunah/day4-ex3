@@ -55,7 +55,7 @@ pipeline {
 
             steps {
                 // npm start 명령 실행 (보통 서버 시작 또는 빌드 스크립트)
-                sh 'npm run build'
+                sh 'npm start'
             }
         }
     }
